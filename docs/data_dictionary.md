@@ -18,7 +18,7 @@ The dataset contains 10,000 observations and is synthetic. It is intended to ref
 
 | Variable                | Type           | Unit    | Role                   | Description                                                                                                                    |
 | ----------------------- | -------------- | ------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| UID                     | Integer        | None    | Identifier             | Unique observation identifier ranging from 1 to 10,000.                                                                        |
+| UDI                     | Integer        | None    | Identifier             | Unique observation identifier ranging from 1 to 10,000.                                                                        |
 | Product ID              | Categorical    | None    | Identifier             | Product identifier containing the product quality class and a serial identifier.                                               |
 | Type                    | Categorical    | None    | Input feature          | Product quality category. The dataset uses L, M, and H to represent low, medium, and high quality variants.                    |
 | Air temperature [K]     | Continuous     | Kelvin  | Input feature          | Simulated ambient air temperature associated with the observation.                                                             |
@@ -54,9 +54,9 @@ This distinction is important because the failure mode variables directly indica
 
 ## Identifier Variables
 
-`UID` and `Product ID` will not initially be used as numerical predictors of machine failure.
+`UDI` and `Product ID` will not initially be used as numerical predictors of machine failure.
 
-`UID` is an observation identifier and does not represent an operating condition.
+`UDI` is an observation identifier and does not represent an operating condition.
 
 `Product ID` contains product-identification information. The separate `Type` field already captures the product-quality category that may have analytical relevance.
 
@@ -82,7 +82,7 @@ For the first development stage, the variables will be grouped as follows.
 
 ### Equipment and Product Information
 
-* UID
+* UDI
 * Product ID
 * Type
 
