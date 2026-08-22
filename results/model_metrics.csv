@@ -1,0 +1,5 @@
+Model,Accuracy,Balanced Accuracy,Precision,Recall,F1 Score,ROC-AUC,Average Precision
+Dummy Baseline,0.966,0.5,0.0,0.0,0.0,0.5,0.034
+Logistic Regression,0.8245,0.824,0.1418,0.8235,0.2419,0.907,0.3818
+Decision Tree,0.929,0.9065,0.3093,0.8824,0.458,0.9111,0.5901
+Random Forest,0.98,0.7272,0.9118,0.4559,0.6078,0.9636,0.7762
