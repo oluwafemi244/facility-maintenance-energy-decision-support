@@ -28,7 +28,7 @@ A simple risk ranking method selected 12 actions, used $95,572 and all 240 labor
 
 Sensitivity analysis showed that the highest priority assets in the present portfolio were relatively stable when the weighting assigned to criticality and downtime was changed. Resource sensitivity also showed that additional budget or labor does not always improve the selected maintenance program once another constraint becomes limiting.
 
-The present work is a proof of concept. The source equipment dataset is synthetic, the facility context variables are simulated, and the results have not been validated for operational use at an actual facility. The current contribution is the implementation and testing of a reproducible computational process that can be expanded and evaluated with additional data.
+The present work is a proof of concept. The source equipment dataset is synthetic, the facility context variables are simulated, and the results have not been validated for operational use at an actual facility. The current result is a reproducible computational process that has been implemented and tested and can be expanded and evaluated with additional data.
 
 ## 1. Purpose and Scope
 
@@ -76,7 +76,7 @@ The variables include:
 
 1. UDI
 2. Product ID
-3. Product Type
+3. Type
 4. Air Temperature
 5. Process Temperature
 6. Rotational Speed
@@ -525,7 +525,7 @@ The following sequence has been implemented:
 
 This is not a completed operational system.
 
-It is evidence that development of the proposed framework has begun and that several core analytical components have been implemented and tested.
+The current repository documents that development of the proposed framework has begun and that several core analytical components have been implemented and tested.
 
 ## 11. Next Development Stages
 
