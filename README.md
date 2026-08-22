@@ -1,15 +1,15 @@
-# Facility Maintenance and Energy Decision-Support Framework
+# Facility Maintenance and Energy Decision Support Framework
 
 ## Project Overview
 
 This repository documents the development of a computational decision support framework for maintenance prioritization and facility energy system performance in infrastructure and energy intensive industrial facilities.
 
-The framework is being developed as a multi-stage technical project. It is intended to help facility operators, engineers, maintenance professionals, and energy professionals organize equipment and operating information, evaluate technical risk, compare maintenance alternatives, analyze facility energy scenarios, and understand how equipment condition and maintenance decisions may affect continuity of facility operations.
+The framework is being developed as a multi stage technical project. It is intended to help facility operators, engineers, maintenance professionals, and energy professionals organize equipment and operating information, evaluate technical risk, compare maintenance alternatives, analyze facility energy scenarios, and understand how equipment condition and maintenance decisions may affect continuity of facility operations.
 
 The project contains two connected workstreams:
 
 1. **Maintenance Prioritization and Resource Allocation**
-2. **Facility Energy-System Performance and Scenario Analysis**
+2. **Facility Energy System Performance and Scenario Analysis**
 
 The two workstreams will initially be developed and tested separately and later integrated into a coordinated decision support framework.
 
@@ -17,7 +17,7 @@ The two workstreams will initially be developed and tested separately and later 
 
 This repository currently represents the preliminary development stage of the project.
 
-Version 0.1 will focus on the maintenance workstream and will use publicly available data to develop and test an initial proof-of-concept for:
+Version 0.1 will focus on the maintenance workstream and will use publicly available data to develop and test an initial proof of concept for:
 
 * equipment condition analysis;
 * failure risk estimation;
@@ -28,7 +28,7 @@ Version 0.1 will focus on the maintenance workstream and will use publicly avail
 
 The first public dataset selected for this work is the **AI4I 2020 Predictive Maintenance Dataset** from the UCI Machine Learning Repository.
 
-The dataset is synthetic and was developed to reflect characteristics commonly found in industrial predictive maintenance data. Results produced from this dataset will therefore be presented as proof-of-concept results and will not be represented as observations from an actual operating facility.
+The dataset is synthetic and was developed to reflect characteristics commonly found in industrial predictive maintenance data. Results produced from this dataset will therefore be presented as proof of concept results and will not be represented as observations from an actual operating facility.
 
 ## Planned Framework
 
@@ -42,7 +42,7 @@ The maintenance workstream is intended to evaluate factors such as:
 * maintenance cost;
 * equipment criticality;
 * available labor;
-* spare-part availability;
+* spare part availability;
 * maintenance budget; and
 * scheduling limitations.
 
@@ -94,13 +94,13 @@ The first development stage will include:
 **Status:** Active development
 **Current stage:** Framework definition and preliminary data evaluation
 **Initial workstream:** Maintenance prioritization and resource allocation
-**Current release:** Pre-release development
+**Current release:** Pre release development
 
 ## Important Limitations
 
-This repository contains research and proof-of-concept work.
+This repository contains research and proof of concept work.
 
-The framework is not currently a validated operational maintenance system, electrical-design tool, safety system, or regulatory-compliance tool.
+The framework is not currently a validated operational maintenance system, electrical design tool, safety system, or regulatory compliance tool.
 
 It does not replace:
 
@@ -111,7 +111,7 @@ It does not replace:
 * safety requirements;
 * cybersecurity review;
 * regulatory determinations; or
-* facility-specific professional judgment.
+* facility specific professional judgment.
 
 Any future practical implementation would require additional validation using appropriate facility data, technical review, security assessment, and consideration of the requirements applicable to the particular operating environment.
 
@@ -119,19 +119,19 @@ Any future practical implementation would require additional validation using ap
 
 ### Stage 1
 
-Framework definition, public-data evaluation, data architecture, initial model specifications, and validation strategy.
+Framework definition, public data evaluation, data architecture, initial model specifications, and validation strategy.
 
 ### Stage 2
 
-Maintenance condition, failure-risk, prioritization, and resource-allocation modeling.
+Maintenance condition, failure risk, prioritization, and resource allocation modeling.
 
 ### Stage 3
 
-Facility energy-system representation and scenario analysis.
+Facility energy system representation and scenario analysis.
 
 ### Stage 4
 
-Integration, validation, and software-prototype development.
+Integration, validation, and software prototype development.
 
 ### Stage 5
 
