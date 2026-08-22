@@ -1,6 +1,6 @@
 # Data Sources
 
-This directory contains or documents datasets used during the development and testing of the Facility Maintenance and Energy Decision-Support Framework.
+This directory contains or documents datasets used during the development and testing of the Facility Maintenance and Energy Decision Support Framework.
 
 ## AI4I 2020 Predictive Maintenance Dataset
 
