@@ -146,5 +146,4 @@ The repository will be organized into separate folders for documentation, data i
 Oluwafemi Olaiyapo
 
 ## License
-
 This project is released under the MIT License unless otherwise stated for individual datasets or external materials. External datasets remain subject to the licenses and terms established by their original publishers.
